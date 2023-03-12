@@ -1,4 +1,4 @@
-import java.awt.Graphics;
+import java.awt.*;
 
 /**
  * Class Rectangle:  inherits from Shape and draws a rectangle
@@ -8,6 +8,7 @@ public class Rectangle extends Shape {
   /** Constructor */
   public Rectangle() {
     super();  // call parent constructor (note the parent's constructor has no parameters)
+    setColor(Color.red);
   }
 
   /** Draw the shape

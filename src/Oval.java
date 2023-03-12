@@ -1,4 +1,4 @@
-import java.awt.Graphics;
+import java.awt.*;
 
 /**
  * Class Oval:  inherits from Shape and handles oval shapes
@@ -8,6 +8,7 @@ public class Oval extends Shape {
   /** Constructor */
   public Oval() {
     super();  // call parent constructor (note the parent's constructor has no parameters)
+    setColor(Color.blue);
   }
 
   /**

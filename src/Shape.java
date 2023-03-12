@@ -39,6 +39,10 @@ public class Shape {
     return color;
   }
 
+  public void setColor(Color color) {
+    this.color = color;
+  }
+
   /**
    * Method to get minimum x value of the bounding rectangle
    * @return  the minimum x value of the two points that define the shape

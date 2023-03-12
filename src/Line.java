@@ -1,8 +1,9 @@
-import java.awt.Graphics;
+import java.awt.*;
 
 public class Line extends Shape{
     public Line(){
         super();
+        setColor(Color.green);
     }
 
     @Override
